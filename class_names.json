@@ -1,0 +1,54 @@
+{
+    "AlfredTeng": {
+        "drink_preference": "Coffee",
+        "dietary_restrictions": "None"
+    },
+    "AndrewChong": {
+        "drink_preference": "Tea",
+        "dietary_restrictions": "Vegetarian"
+    },
+    "DenverWong": {
+        "drink_preference": "Tea",
+        "dietary_restrictions": "None"
+    },
+    "DionAng": {
+        "drink_preference": "Water",
+        "dietary_restrictions": "None"
+    },
+    "EmileSabastian": {
+        "drink_preference": "Milo",
+        "dietary_restrictions": "Walnuts"
+    },
+    "EmilyNg": {
+        "drink_preference": "Water",
+        "dietary_restrictions": "Almonds"
+    },
+    "EsterGoh": {
+        "drink_preference": "Tea",
+        "dietary_restrictions": "Vegan"
+    },
+    "GordonHoi": {
+        "drink_preference": "Water",
+        "dietary_restrictions": "Gluten-Free"
+    },
+    "ImanTang": {
+        "drink_preference": "Tea",
+        "dietary_restrictions": "Vegan"
+    },
+    "ShuyunCheng": {
+        "drink_preference": "Soda",
+        "dietary_restrictions": "Vegan"
+    },
+    "SioPohTan": {
+        "drink_preference": "Coffee",
+        "dietary_restrictions": "None"
+    },
+    "SurojitDutta": {
+        "drink_preference": "Coffee",
+        "dietary_restrictions": "None"
+    },
+    "YanyanLiu": {
+        "drink_preference": "Milo",
+        "dietary_restrictions": "Vegan"
+    }
+}
