@@ -5,6 +5,12 @@ import mediapipe as mp
 import json
 import cv2
 
+# Initialize Flask app
+app = Flask(__name__)
+
+# Hardcode your secret key here
+app.config['SECRET_KEY'] = '644db0e75c9a8d853f0af58fa1ea3908'
+
 # Load the model
 try:
     model = tf.keras.models.load_model('staff_mobilenet_v2_model.h5')
@@ -19,8 +25,6 @@ try:
 except Exception as e:
     print(f"Error loading class names: {e}")
     raise
-
-app = Flask(__name__)
 
 # Initialize MediaPipe Face Detection
 mp_face_detection = mp.solutions.face_detection
@@ -84,7 +88,5 @@ def video_feed():
     return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-    try:
-        app.run(debug=True)
-    except Exception as e:
-        print(f"Error running Flask app: {e}")
+    # Start Flask application
+    app.run(host='0.0.0.0', port=8080, debug=True)  # Ensure the app binds to 0.0.0.0
