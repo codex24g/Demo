@@ -1,0 +1,19 @@
+project:
+  name: flask-face-recognition
+  type: python
+  entrypoint: app:app  # Entry point to your Flask app (app.py file should contain 'app' object)
+  python_version: "3.9"  # Specify the Python version compatible with your app
+
+dependencies:
+  - Flask
+  - tensorflow
+  - mediapipe
+  - opencv-python-headless
+  - numpy
+
+environment_variables:
+  FLASK_ENV: production
+  SECRET_KEY: "644db0e75c9a8d853f0af58fa1ea3908"  # Replace with your actual secret key or use an environment variable for security
+  # Add other environment variables if needed
+
+# Optional: Define any additional configuration, such as build settings or deployment targets
