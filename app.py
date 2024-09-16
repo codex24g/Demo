@@ -103,5 +103,5 @@ def query():
     return jsonify({'answer': answer['answer']})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False, host="0.0.0.0")
 
